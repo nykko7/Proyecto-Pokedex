@@ -1,28 +1,113 @@
-.card{
-  background-color: azure;
-  max-width: 280px;
-  border-radius: 20px;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+/* -------------------------------- */
+/* ESTILOS: */ 
+/* -------------------------------- */
+body{
+  background: #424242 url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
 }
 
-.card img{
+h1{
+  color: #fff;
+  text-shadow: 5px 5px 3px black;
+}
+
+.card{
+  width: 300px;
+}
+
+.card-image{
+  margin: 0 auto;
+  height: 130px;
+  width: 130px;
   background-color: rgba(0,0,0,.7);
   border-radius: 50%;
-  height: 120px;
-  width: 120px;
-  margin-top: 20px;
 }
 
-.poke-number {
+.card .card-image img{
+  max-height: 120%;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.card .poke-number {
   text-align: center;
   border-radius: 20px;
   margin: 10px auto;
   background-color: rgba(0,0,0,.3);
   width: 40%;
+  text-shadow: 2px 2px 1px #1b1b1b56;
 }
 
-.name {
+.card .name {
   letter-spacing: 7px;
   font-weight: bold;
   text-shadow: 2px 2px 1px #1b1b1b56;
 }
+
+/* -------------------------------- */
+/* CODIGO PARA FLIP CARD: */ 
+/* -------------------------------- */
+
+.card {
+  background-color: transparent;
+  perspective: 40rem;
+  transition: z-index;
+  transition-delay: 1s;
+  z-index: 0;
+}
+
+.card-body {
+  min-width: 100%;
+  padding: 0 0;
+  display: flex;
+  transform-style: preserve-3d;
+  transition: 1.5s transform;  
+}
+
+.card:hover .card-body  {
+  transform: rotateY(-180deg);
+  transition-delay: 0s;
+  z-index: 0;
+}  
+
+.card:hover .card-body, .card:focus .cardbody{
+  transform: rotateY(-180deg);
+}
+
+.card-front, .card-back {
+  min-width: 100%;
+  backface-visibility: hidden;
+  background-color:  rgba(252, 247, 222, 0.9);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px black;
+}
+
+.card-front{
+  position: relative;
+}
+
+.card-back {
+  
+  transform: rotateY(-180deg) translate(100%, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,47 +1,121 @@
 /* -------------------------------- */
 /* ESTILOS: */ 
 /* -------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+
 body{
   background: #424242 url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+  font-family: 'Poppins', sans-serif;
 }
 
 h1{
   color: #fff;
+  margin-left: 1.5rem;
   text-shadow: 5px 5px 3px black;
+}
+
+@media (max-width: 550px) {
+  h1{
+    font-size: 70px !important;
+    margin-left: 0 !important;
+  }
 }
 
 .card{
   width: 300px;
+  border: none;
+  height: 400px;
 }
 
 .card-image{
+  height: 135px;
+  width: 135px;
   margin: 0 auto;
-  height: 130px;
-  width: 130px;
   background-color: rgba(0,0,0,.7);
   border-radius: 50%;
 }
 
 .card .card-image img{
-  max-height: 120%;
-  margin-top: 20px;
-  margin-right: 20px;
+  max-width: 140%;
+  height: auto;
 }
 
 .card .poke-number {
   text-align: center;
+  font-weight: bold;
   border-radius: 20px;
   margin: 10px auto;
   background-color: rgba(0,0,0,.3);
   width: 40%;
-  text-shadow: 2px 2px 1px #1b1b1b56;
+  text-shadow: 2px 2px 2px #1b1b1b56;
 }
 
 .card .name {
   letter-spacing: 7px;
-  font-weight: bold;
-  text-shadow: 2px 2px 1px #1b1b1b56;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px #1b1b1b56;
 }
+
+.card-front, .card-back {
+  text-align: center;
+  background-color:  rgba(120, 255, 120, 0.7);
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px black;
+  border: solid black 5px;
+}
+
+.card p{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.card:hover {
+	cursor: url(https://cdn.custom-cursor.com/db/249/32/arrow2282.png), auto;
+}
+.card:active {
+	cursor: url(https://cdn.custom-cursor.com/db/250/32/arrow2282.png), auto;
+}
+
+.card:back{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.card-back p{
+  font-size: 16px;
+  text-align: justify;
+  width: 80%;
+}
+
+.card-back .nombre-back {
+  padding-bottom: 25px;
+}
+
+.card-back .description{
+  font-weight: 700;
+  padding: 3px;
+  background-color:rgba(0,0,0,1);
+  border-radius: 20px;
+  color: white;
+}
+
+.searchbox{
+  font-size: 25px;
+  font-weight: bold;
+  border: solid black 6px;
+  max-width: 400px;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+
 
 /* -------------------------------- */
 /* CODIGO PARA FLIP CARD: */ 
@@ -49,7 +123,7 @@ h1{
 
 .card {
   background-color: transparent;
-  perspective: 40rem;
+  perspective: 1000px;
   transition: z-index;
   transition-delay: 1s;
   z-index: 0;
@@ -63,35 +137,25 @@ h1{
   transition: 1.5s transform;  
 }
 
-.card:hover .card-body  {
+.card:hover .card-body, .card:focus .card-body{
   transform: rotateY(-180deg);
   transition-delay: 0s;
   z-index: 0;
-}  
-
-.card:hover .card-body, .card:focus .cardbody{
-  transform: rotateY(-180deg);
 }
 
 .card-front, .card-back {
   min-width: 100%;
-  backface-visibility: hidden;
-  background-color:  rgba(252, 247, 222, 0.9);
-  background-position: center;
-  background-size: cover;
-  border-radius: 15px;
-  box-shadow: 0 5px 10px black;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;  
 }
 
 .card-front{
   position: relative;
 }
 
-.card-back {
-  
+.card-back {  
   transform: rotateY(-180deg) translate(100%, 0);
 }
-
 
 
 

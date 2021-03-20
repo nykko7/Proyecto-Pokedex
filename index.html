@@ -4,6 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
+  <link rel="icon" href="../img/pokebola.png">
+
 	<title>Pokedex</title>
 
   <!-- Bootstrap: -->
@@ -13,9 +15,19 @@
 </head>
 
 <body>
-	<h1 class="text-center display-1"><strong>Pokedex</strong></h1>
+  <!-- TITULO -->
+  <div class="titulo d-flex align-items-center justify-content-center mt-3 row">
+    <img src="../img/pokebola.png" alt="Pokebola">
+    <h1 class="display-1">Pokedex</h1>
+  </div>
 
-  <div id='main-container' class="container-fluid mt-3 d-flex flex-wrap justify-content-center">
+  <!-- SEARCHBOX -->
+  <div class="search-box d-flex justify-content-center mt-4">
+    <input class="form-control text-center text-monospace searchbox" type="text" id="myInput" onkeyup="Search()" placeholder="Search by name...">
+  </div>	
+
+  <!-- CONTAINER -->
+  <div id='main-container' class="container-fluid mt-4 d-flex flex-wrap justify-content-center">
       
   </div>
   <!-- Bootstrap: -->
@@ -24,5 +36,6 @@
   <!-- JavaScript: -->
   <script src="./pokemons.js"></script>
   <script src="./script.js"></script>
-  </body>
+  
+</body>
 </html>

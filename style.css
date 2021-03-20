@@ -90,6 +90,12 @@ h1 {
 	font-size: 16px;
 	text-align: justify;
 	width: 80%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.card-back p {
+	transition: height 0.25s ease-out;
+	display: block;
 }
 
 .card-back .nombre-back {

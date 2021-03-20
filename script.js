@@ -83,7 +83,7 @@ async function crearPokemones() {
 		let idFormatted = '#' + id.toString().padStart(3, '0');
 		let nombre = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
 		let tipo = pokemon.types[0].type.name[0].toUpperCase() + pokemon.types[0].type.name.slice(1);
-		let historia = Pokemons[i - 1].description.slice(0, 230);
+		let historia = Pokemons[i - 1].description;
 
 		let peso = pokemon.weight / 10;
 

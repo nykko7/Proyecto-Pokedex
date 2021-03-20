@@ -1,26 +1,26 @@
 var mainContainer = document.getElementById('main-container');
 
 //Variable con la cantidad de pokemones:
-const pokemons_number = 150;
+const pokemons_number = 151;
 
 const colors = {
-	fire: '#FDDFDF',
-	grass: '#DEFDE0',
-	electric: '#FCF7DE',
-	water: '#DEF3FD',
-	ground: '#f4e7da',
-	rock: '#d5d5d4',
-	steel: '#d5d5d4',
-	ice: '#DEF3FD',
-	fairy: '#fceaff',
-	poison: '#98d7a5',
-	bug: '#f8d5a3',
-	dragon: '#97b3e6',
-	psychic: '#eaeda1',
-	flying: '#F5F5F5',
-	fighting: '#E6E0D4',
-	normal: '#F5F5F5',
-	ghost: '#aaa',
+	Fire: '#FDDFDF',
+	Grass: '#DEFDE0',
+	Electric: '#FCF7DE',
+	Water: '#DEF3FD',
+	Ground: '#f4e7da',
+	Rock: '#d5d5d4',
+	Steel: '#d5d5d4',
+	Ice: '#DEF3FD',
+	Fairy: '#fceaff',
+	Poison: '#98d7a5',
+	Bug: '#f8d5a3',
+	Dragon: '#97b3e6',
+	Psychic: '#eaeda1',
+	Flying: '#F5F5F5',
+	Fighting: '#E6E0D4',
+	Normal: '#F5F5F5',
+	Ghost: '#aaa',
 };
 
 function crearPokemon(id, nombre, tipo, peso, imagen, historia) {
@@ -68,7 +68,7 @@ function crearPokemon(id, nombre, tipo, peso, imagen, historia) {
 //Funcion que permite leer la API de pokemon:
 const getPokemon = async (id) => {
 	//URL de la API a partir del id ingresado por parametro:
-	const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
+	const url = `https://pokeapi.co/api/v2/pokemon/${id}/`;
 	//Accede al URL y guarda el json en la const "pokemon"
 	const response = await fetch(url);
 	const pokemon = await response.json();
@@ -82,7 +82,7 @@ async function crearPokemones() {
 		let id = pokemon.id;
 		let idFormatted = '#' + id.toString().padStart(3, '0');
 		let nombre = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
-		let tipo = pokemon.types[0].type.name;
+		let tipo = pokemon.types[0].type.name[0].toUpperCase() + pokemon.types[0].type.name.slice(1);
 		let historia = Pokemons[i - 1].description.slice(0, 230);
 
 		let peso = pokemon.weight / 10;

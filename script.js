@@ -1,5 +1,8 @@
 var mainContainer = document.getElementById('main-container');
 
+//Variable con la cantidad de pokemones:
+const pokemons_number = 150;
+
 const colors = {
 	fire: '#FDDFDF',
 	grass: '#DEFDE0',
@@ -17,9 +20,10 @@ const colors = {
 	flying: '#F5F5F5',
 	fighting: '#E6E0D4',
 	normal: '#F5F5F5',
+	ghost: '#aaa',
 };
 
-function crearPokemon(id, nombre, tipo, evolucion, imagen, historia) {
+function crearPokemon(id, nombre, tipo, peso, imagen, historia) {
 	var frontCardHTML = `
     <div class="card-front d-flex flex-column justify-content-center">
       <div class="card-image d-flex justify-content-center mt-3">
@@ -28,7 +32,7 @@ function crearPokemon(id, nombre, tipo, evolucion, imagen, historia) {
       <h3 class="text-center poke-number">${id}</h3> 
       <h3 class="text-center mb-3 name">${nombre}</h3> 
       <p class="card-text mb-0 px-4"><span class="bold">Type:</span> ${tipo}</p>
-      <p class="card-text mt-1 mb-4 px-4"><span class="bold">Evolution: </span>${evolucion}</p>
+      <p class="card-text mt-1 mb-4 px-4"><span class="bold">Weight: </span>${peso}kg.</p>
     </div>
     `;
 
@@ -61,20 +65,31 @@ function crearPokemon(id, nombre, tipo, evolucion, imagen, historia) {
 	mainContainer.appendChild(card);
 }
 
-function crearPokemones() {
-	for (var i = 0; i <= 150; i++) {
-		var id = Pokemons[i].pkdx_id;
-		var idFormatted = '#' + id.toString().padStart(3, '0');
-		var nombre = Pokemons[i].name;
-		var tipo = Pokemons[i].types[0];
-		var historia = Pokemons[i].description;
+//Funcion que permite leer la API de pokemon:
+const getPokemon = async (id) => {
+	//URL de la API a partir del id ingresado por parametro:
+	const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
+	//Accede al URL y guarda el json en la const "pokemon"
+	const response = await fetch(url);
+	const pokemon = await response.json();
 
-		if (Pokemons[i].evolutions[0]) {
-			var evolucion = Pokemons[i].evolutions[0].to;
-		}
-		/* var imagen = Pokemons[i].art_url;    */
-		var imagen = `https://pokeres.bastionbot.org/images/pokemon/${id}.png`;
-		crearPokemon(idFormatted, nombre, tipo, evolucion, imagen, historia);
+	return pokemon;
+};
+
+async function crearPokemones() {
+	for (var i = 1; i <= pokemons_number; i++) {
+		let pokemon = await getPokemon(i);
+		let id = pokemon.id;
+		let idFormatted = '#' + id.toString().padStart(3, '0');
+		let nombre = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
+		let tipo = pokemon.types[0].type.name;
+		let historia = Pokemons[i - 1].description.slice(0, 230);
+
+		let peso = pokemon.weight / 10;
+
+		/* let imagen = Pokemons[i].art_url;    */
+		let imagen = `https://pokeres.bastionbot.org/images/pokemon/${id}.png`;
+		crearPokemon(idFormatted, nombre, tipo, peso, imagen, historia);
 	}
 }
 

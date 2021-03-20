@@ -6,8 +6,8 @@ var Pokemons = [
     name: "Bulbasaur",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/1.png",
-    description: "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.  Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
-    art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/001.png,",
+    description: "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+    art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/001.png",
     types: [
       "poison",
       "grass"
@@ -28,7 +28,7 @@ var Pokemons = [
     name: "Ivysaur",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/2.png",
-    description: "There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.  There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
+    description: "There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.  ",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/002.png",
     types: [
       "poison",
@@ -50,7 +50,7 @@ var Pokemons = [
     name: "Venusaur",
     __v: 5,
     image_url: "http://pokeapi.co/media/img/3.png",
-    description: "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.  There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
+    description: "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/003.png",
     types: [
       "poison",
@@ -71,7 +71,7 @@ var Pokemons = [
     name: "Charmander",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/4.png",
-    description: "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.  The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
+    description: "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/004.png",
     types: [
       "fire"
@@ -92,7 +92,7 @@ var Pokemons = [
     name: "Charmeleon",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/5.png",
-    description: "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.  Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+    description: "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/005.png",
     types: [
       "fire"
@@ -113,7 +113,7 @@ var Pokemons = [
     name: "Charizard",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/6.png",
-    description: "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.  Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+    description: "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/006.png",
     types: [
       "flying",
@@ -139,7 +139,7 @@ var Pokemons = [
     name: "Squirtle",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/7.png",
-    description: "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.  Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
+    description: "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/007.png",
     types: [
       "water"
@@ -160,7 +160,7 @@ var Pokemons = [
     name: "Wartortle",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/8.png",
-    description: "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.  Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.",
+    description: "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/008.png",
     types: [
       "water"
@@ -181,7 +181,7 @@ var Pokemons = [
     name: "Blastoise",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/9.png",
-    description: "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.  Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.",
+    description: "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/009.png",
     types: [
       "water"
@@ -201,7 +201,7 @@ var Pokemons = [
     name: "Caterpie",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/10.png",
-    description: "Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.  Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.",
+    description: "Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/010.png",
     types: [
       "bug"
@@ -222,7 +222,7 @@ var Pokemons = [
     name: "Metapod",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/11.png",
-    description: "The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.  The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
+    description: "The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/011.png",
     types: [
       "bug"
@@ -243,7 +243,7 @@ var Pokemons = [
     name: "Butterfree",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/12.png",
-    description: "Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.  Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.",
+    description: "Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/012.png",
     types: [
       "flying",
@@ -258,7 +258,7 @@ var Pokemons = [
     name: "Weedle",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/13.png",
-    description: "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).  Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
+    description: "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/013.png",
     types: [
       "poison",
@@ -280,7 +280,7 @@ var Pokemons = [
     name: "Kakuna",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/14.png",
-    description: "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.  Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
+    description: "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/014.png",
     types: [
       "poison",
@@ -302,7 +302,7 @@ var Pokemons = [
     name: "Beedrill",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/15.png",
-    description: "Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.  Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.",
+    description: "Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/015.png",
     types: [
       "poison",
@@ -317,7 +317,7 @@ var Pokemons = [
     name: "Pidgey",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/16.png",
-    description: "Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.  Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.",
+    description: "Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/016.png",
     types: [
       "normal",
@@ -339,7 +339,7 @@ var Pokemons = [
     name: "Pidgeotto",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/17.png",
-    description: "Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.  Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
+    description: "Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/017.png",
     types: [
       "normal",
@@ -361,7 +361,7 @@ var Pokemons = [
     name: "Pidgeot",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/18.png",
-    description: "This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.  This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.",
+    description: "This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/018.png",
     types: [
       "normal",
@@ -376,7 +376,7 @@ var Pokemons = [
     name: "Rattata",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/19.png",
-    description: "Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives—it will make its nest anywhere.  Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives—it will make its nest anywhere.",
+    description: "Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives—it will make its nest anywhere.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/019.png",
     types: [
       "normal"
@@ -397,7 +397,7 @@ var Pokemons = [
     name: "Raticate",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/20.png",
-    description: "Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.  Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
+    description: "Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/020.png",
     types: [
       "normal"
@@ -411,7 +411,7 @@ var Pokemons = [
     name: "Spearow",
     __v: 5,
     image_url: "http://pokeapi.co/media/img/21.png",
-    description: "Spearow has a very loud cry that can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.  Spearow has a very loud cry that can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.",
+    description: "Spearow has a very loud cry that can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/021.png",
     types: [
       "normal",
@@ -433,7 +433,7 @@ var Pokemons = [
     name: "Fearow",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/22.png",
-    description: "Fearow is recognized by its long neck and elongated beak. They are conveniently shaped for catching prey in soil or water. It deftly moves its long and skinny beak to pluck prey.  Fearow is recognized by its long neck and elongated beak. They are conveniently shaped for catching prey in soil or water. It deftly moves its long and skinny beak to pluck prey.",
+    description: "Fearow is recognized by its long neck and elongated beak. They are conveniently shaped for catching prey in soil or water. It deftly moves its long and skinny beak to pluck prey.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/022.png",
     types: [
       "normal",
@@ -448,7 +448,7 @@ var Pokemons = [
     name: "Ekans",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/23.png",
-    description: "Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.  Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.",
+    description: "Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/023.png",
     types: [
       "poison"
@@ -469,7 +469,7 @@ var Pokemons = [
     name: "Arbok",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/24.png",
-    description: "This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.  This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.",
+    description: "This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/024.png",
     types: [
       "poison"
@@ -573,7 +573,7 @@ var Pokemons = [
     name: "Nidorina",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/30.png",
-    description: "When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.  When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.",
+    description: "When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/030.png",
     types: [
       "poison"
@@ -593,7 +593,7 @@ var Pokemons = [
     name: "Nidoqueen",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/31.png",
-    description: "Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.  Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.",
+    description: "Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/031.png",
     types: [
       "poison",
@@ -629,7 +629,7 @@ var Pokemons = [
     name: "Nidorino",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/33.png",
-    description: "Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.  Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
+    description: "Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/033.png",
     types: [
       "poison"
@@ -649,7 +649,7 @@ var Pokemons = [
     name: "Nidoking",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/34.png",
-    description: "Nidoking's thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.  Nidoking's thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.",
+    description: "Nidoking's thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/034.png",
     types: [
       "poison",
@@ -664,7 +664,7 @@ var Pokemons = [
     name: "Clefairy",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/35.png",
-    description: "On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.  On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.",
+    description: "On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/035.png",
     types: [
       "fairy"
@@ -684,7 +684,7 @@ var Pokemons = [
     name: "Clefable",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/36.png",
-    description: "Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.  Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.",
+    description: "Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/036.png",
     types: [
       "fairy"
@@ -874,7 +874,7 @@ var Pokemons = [
     name: "Paras",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/46.png",
-    description: "Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life.  Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life.",
+    description: "Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life.  .",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/046.png",
     types: [
       "bug",
@@ -896,7 +896,7 @@ var Pokemons = [
     name: "Parasect",
     __v: 5,
     image_url: "http://pokeapi.co/media/img/47.png",
-    description: "Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.  Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.",
+    description: "Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/047.png",
     types: [
       "bug",
@@ -911,7 +911,7 @@ var Pokemons = [
     name: "Venonat",
     __v: 5,
     image_url: "http://pokeapi.co/media/img/48.png",
-    description: "Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.  Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.",
+    description: "Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/048.png",
     types: [
       "poison",
@@ -933,7 +933,7 @@ var Pokemons = [
     name: "Venomoth",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/49.png",
-    description: "Venomoth is nocturnal—it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.  Venomoth is nocturnal—it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
+    description: "Venomoth is nocturnal—it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/049.png",
     types: [
       "poison",
@@ -948,7 +948,7 @@ var Pokemons = [
     name: "Diglett",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/50.png",
-    description: "Diglett are raised in most farms. The reason is simple— wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.  Diglett are raised in most farms. The reason is simple— wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.",
+    description: "Diglett are raised in most farms. The reason is simple— wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/050.png",
     types: [
       "ground"
@@ -969,7 +969,7 @@ var Pokemons = [
     name: "Dugtrio",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/51.png",
-    description: "Dugtrio are actually triplets that emerged from one body. As a result, each triplet thinks exactly like the other two triplets. They work cooperatively to burrow endlessly.  Dugtrio are actually triplets that emerged from one body. As a result, each triplet thinks exactly like the other two triplets. They work cooperatively to burrow endlessly.",
+    description: "Dugtrio are actually triplets that emerged from one body. As a result, each triplet thinks exactly like the other two triplets. They work cooperatively to burrow endlessly.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/051.png",
     types: [
       "ground"
@@ -983,7 +983,7 @@ var Pokemons = [
     name: "Meowth",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/52.png",
-    description: "Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pokémon loves shiny coins that glitter with light.  Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pokémon loves shiny coins that glitter with light.",
+    description: "Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pokémon loves shiny coins that glitter with light.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/052.png",
     types: [
       "normal"
@@ -1004,7 +1004,7 @@ var Pokemons = [
     name: "Persian",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/53.png",
-    description: "Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon's surrounding vicinity. It becomes docile if grabbed by the whiskers.  Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon's surrounding vicinity. It becomes docile if grabbed by the whiskers.",
+    description: "Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon's surrounding vicinity. It becomes docile if grabbed by the whiskers.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/053.png",
     types: [
       "normal"
@@ -1143,7 +1143,7 @@ var Pokemons = [
     name: "Poliwhirl",
     __v: 3,
     image_url: "http://pokeapi.co/media/img/61.png",
-    description: "The surface of Poliwhirl's body is always wet and slick with a slimy fluid. Because of this slippery covering, it can easily slip and slide out of the clutches of any enemy in battle.  The surface of Poliwhirl's body is always wet and slick with a slimy fluid. Because of this slippery covering, it can easily slip and slide out of the clutches of any enemy in battle.",
+    description: "The surface of Poliwhirl's body is always wet and slick with a slimy fluid. Because of this slippery covering, it can easily slip and slide out of the clutches of any enemy in battle..",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/061.png",
     types: [
       "water"
@@ -1168,7 +1168,7 @@ var Pokemons = [
     name: "Poliwrath",
     __v: 4,
     image_url: "http://pokeapi.co/media/img/62.png",
-    description: "Poliwrath's highly developed, brawny muscles never grow fatigued, however much it exercises. It is so tirelessly strong, this Pokémon can swim back and forth across the ocean without effort.  Poliwrath's highly developed, brawny muscles never grow fatigued, however much it exercises. It is so tirelessly strong, this Pokémon can swim back and forth across the ocean without effort.",
+    description: "Poliwrath's highly developed, brawny muscles never grow fatigued, however much it exercises. It is so tirelessly strong, this Pokémon can swim back and forth across the ocean without effort.",
     art_url: "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/062.png",
     types: [
       "fighting",
@@ -2846,4 +2846,3 @@ var Pokemons = [
     evolutions: []
   }
 ]
-
